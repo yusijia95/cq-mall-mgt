@@ -1,0 +1,6 @@
+server:
+  port: 9512
+
+token:
+  secretKey: banyuan
+  expireSec: 3600
