@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
-        <module name="redis" />
+        <module name="cq-mall" />
         <module name="authentication" />
+        <module name="redis" />
         <module name="oss" />
         <module name="security-jwt" />
       </profile>

@@ -1,4 +1,4 @@
-package club.banyuan.oss.service;
+package club.banyuan.cqmall.service;
 
 import java.io.IOException;
 import java.io.InputStream;

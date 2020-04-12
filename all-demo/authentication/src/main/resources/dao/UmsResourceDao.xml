@@ -103,7 +103,7 @@
     </select>
 
     <select id="selectResourceByUsername" resultType="club.banyuan.authentication.dao.entity.UmsResource">
-    select ur.name from ums_role_resource_relation urrr , ums_resource ur
+    select ur.<include refid="Base_Column_List"></include> from ums_role_resource_relation urrr , ums_resource ur
     where urrr.resource_id=ur.id and urrr.role_id=(select uarr.role_id from ums_admin ua, ums_admin_role_relation uarr where ua.id=uarr.admin_id
     and ua.username=#{username})
      </select>

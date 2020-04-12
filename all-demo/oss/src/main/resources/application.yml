@@ -9,6 +9,6 @@ minio:
   endpoint: http://192.168.43.182:9000 #MinIO服务所在地址
   bucketName: dev #存储桶名称
   accessKey: banyuan #访问的key
-  secretKey: minio@banyuan #访问的秘钥
+  secretKey: banyuan123 #访问的秘钥
 server:
-  port: 8095
+  port: 8088

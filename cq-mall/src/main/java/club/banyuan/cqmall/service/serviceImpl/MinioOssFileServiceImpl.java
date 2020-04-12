@@ -1,9 +1,7 @@
-package club.banyuan.oss.service.serviceImpl;
+package club.banyuan.cqmall.service.serviceImpl;
 
-import club.banyuan.oss.service.OssFileService;
+import club.banyuan.cqmall.service.OssFileService;
 import io.minio.MinioClient;
-import io.minio.errors.InvalidEndpointException;
-import io.minio.errors.InvalidPortException;
 import io.minio.policy.PolicyType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,7 +14,7 @@ import java.io.InputStream;
 @Service
 public class MinioOssFileServiceImpl implements OssFileService {
 
-    private Logger logger = LoggerFactory.getLogger(MinioOssFileServiceImpl.class);
+    private Logger logger=LoggerFactory.getLogger(MinioOssFileServiceImpl.class);
 
     @Value("${minio.endpoint}")
     private String endPoint;
@@ -30,24 +28,23 @@ public class MinioOssFileServiceImpl implements OssFileService {
     @Value("${minio.secretKey}")
     private String secretKey;
 
-    public String upload(String objectName, InputStream inputStream, String contentType) throws IOException {
+    public String upload(String objectName, InputStream inputStream,String contentType) throws IOException {
         try {
-            MinioClient minioClient = new MinioClient(endPoint, accessKey, secretKey);
-            Boolean flag = minioClient.bucketExists(bucketName);
-            if (flag) {
+            MinioClient minioClient=new MinioClient(endPoint,accessKey,secretKey);
+            Boolean flag=minioClient.bucketExists(bucketName);
+            if(flag){
                 logger.info("桶已存在");
-            } else {
+            }else {
                 minioClient.makeBucket(bucketName);
-                minioClient.setBucketPolicy(bucketName, ".", PolicyType.READ_WRITE);
+                minioClient.setBucketPolicy(bucketName,".", PolicyType.READ_WRITE);
             }
-            minioClient.putObject(bucketName, objectName, inputStream, contentType);
+            minioClient.putObject(bucketName,objectName,inputStream,contentType);
             logger.info("文件上传成功");
-            return endPoint + "/" + bucketName + "/" + objectName;
+            return endPoint+"/"+bucketName+"/"+objectName;
         } catch (Exception e) {
             throw new IOException(e);
         }
     }
-
 
     public String delete(String objectName) {
         try {

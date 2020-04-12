@@ -1,5 +1,5 @@
 server:
-  port: 9512
+  port: 8088
 
 token:
   secretKey: banyuan
