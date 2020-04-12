@@ -1,23 +1,23 @@
 package club.banyuan.cqmall.vo;
 
 public class LoginToken {
-    private String schema;
+    private String tokenHead;
     private String token;
 
     public LoginToken() {
     }
 
-    public LoginToken(String schema, String token) {
-        this.schema = schema;
+    public LoginToken(String tokenHead, String token) {
+        this.tokenHead = tokenHead;
         this.token = token;
     }
 
-    public String getSchema() {
-        return schema;
+    public String getTokenHead() {
+        return tokenHead;
     }
 
-    public void setSchema(String schema) {
-        this.schema = schema;
+    public void setTokenHead(String tokenHead) {
+        this.tokenHead = tokenHead;
     }
 
     public String getToken() {
@@ -31,7 +31,7 @@ public class LoginToken {
     @Override
     public String toString() {
         return "LoginToken{" +
-                "schema='" + schema + '\'' +
+                "tokenHead='" + tokenHead + '\'' +
                 ", token='" + token + '\'' +
                 '}';
     }

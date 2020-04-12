@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/authentication/src/main/java/club/banyuan/authentication/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/authentication/src/main/java/club/banyuan/authentication/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/authentication/src/main/resources/dao/UmsAdminDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/authentication/src/main/resources/dao/UmsAdminDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/authentication/src/main/resources/dao/UmsResourceDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/authentication/src/main/resources/dao/UmsResourceDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/jwt/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/jwt/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/oss/src/main/java/club/banyuan/oss/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/oss/src/main/java/club/banyuan/oss/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/oss/src/main/java/club/banyuan/oss/service/OssFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/oss/src/main/java/club/banyuan/oss/service/OssFileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/oss/src/main/java/club/banyuan/oss/service/serviceImpl/MinioOssFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/oss/src/main/java/club/banyuan/oss/service/serviceImpl/MinioOssFileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/oss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/oss/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-demo/redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/all-demo/redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/vo/LoginToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/vo/LoginToken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +46,9 @@
       <list>
         <option value="HTML File" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -116,9 +104,9 @@
       <recent name="club.banyuan.redis.service.ServiceImpl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="club.banyuan.cqmall.service" />
       <recent name="club.banyuan.cqmall.controller" />
       <recent name="club.banyuan.cqmall.service.serviceImpl" />
-      <recent name="club.banyuan.cqmall.service" />
       <recent name="club.banyuan.cqmall.config" />
       <recent name="club.banyuan.cqmall.security" />
     </key>
@@ -306,7 +294,7 @@
       <updated>1585563329661</updated>
       <workItem from="1585563333587" duration="25697000" />
       <workItem from="1586256052044" duration="5708000" />
-      <workItem from="1586348115845" duration="42496000" />
+      <workItem from="1586348115845" duration="45049000" />
     </task>
     <servers />
   </component>
@@ -326,14 +314,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="457" y="267" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1585570589889" />
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1586694503473">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1586697720459">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586694503473" />
-    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586594476684">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586697720459" />
+    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586697061143">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1586594476684" />
+    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1586697061143" />
     <state x="681" y="204" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1586660110036">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -342,38 +330,38 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="430" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1586695225544" />
-    <state width="988" height="352" key="GridCell.Tab.0.bottom" timestamp="1586695248548">
+    <state width="988" height="352" key="GridCell.Tab.0.bottom" timestamp="1586695874445">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="988" height="352" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586695248548" />
-    <state width="988" height="352" key="GridCell.Tab.0.center" timestamp="1586695248544">
+    <state width="988" height="352" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586695874445" />
+    <state width="988" height="352" key="GridCell.Tab.0.center" timestamp="1586695874399">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="988" height="352" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586695248544" />
-    <state width="988" height="352" key="GridCell.Tab.0.left" timestamp="1586695248543">
+    <state width="988" height="352" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586695874399" />
+    <state width="988" height="352" key="GridCell.Tab.0.left" timestamp="1586695874399">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="988" height="352" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586695248543" />
-    <state width="988" height="352" key="GridCell.Tab.0.right" timestamp="1586695248544">
+    <state width="988" height="352" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586695874399" />
+    <state width="988" height="352" key="GridCell.Tab.0.right" timestamp="1586695874444">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="988" height="352" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586695248544" />
-    <state width="988" height="352" key="GridCell.Tab.1.bottom" timestamp="1586695248552">
+    <state width="988" height="352" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586695874444" />
+    <state width="988" height="352" key="GridCell.Tab.1.bottom" timestamp="1586695874447">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="988" height="352" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586695248552" />
-    <state width="988" height="352" key="GridCell.Tab.1.center" timestamp="1586695248551">
+    <state width="988" height="352" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586695874447" />
+    <state width="988" height="352" key="GridCell.Tab.1.center" timestamp="1586695874446">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="988" height="352" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586695248551" />
-    <state width="988" height="352" key="GridCell.Tab.1.left" timestamp="1586695248550">
+    <state width="988" height="352" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586695874446" />
+    <state width="988" height="352" key="GridCell.Tab.1.left" timestamp="1586695874445">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="988" height="352" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586695248550" />
-    <state width="988" height="352" key="GridCell.Tab.1.right" timestamp="1586695248551">
+    <state width="988" height="352" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586695874445" />
+    <state width="988" height="352" key="GridCell.Tab.1.right" timestamp="1586695874446">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="988" height="352" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586695248551" />
+    <state width="988" height="352" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586695874446" />
     <state x="275" y="23" key="SettingsEditor" timestamp="1586617268910">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
