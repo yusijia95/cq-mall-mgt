@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="forth">
+    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/CommonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/ResourceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsResourceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsResourceDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/security/UmsAdminDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/security/UmsAdminDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/ResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/ResourceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/MenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/ResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/ResourceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsResourceDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/RoleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsRoleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/test/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/test/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +42,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cqmall: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cqmall@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cqmall: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="ums_role: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -66,9 +50,9 @@
       <list>
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -138,11 +122,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="club.banyuan.cqmall.controller" />
       <recent name="club.banyuan.cqmall.service" />
+      <recent name="club.banyuan.cqmall.dao" />
+      <recent name="club.banyuan.cqmall.controller" />
       <recent name="club.banyuan.cqmall.common" />
       <recent name="club.banyuan.cqmall.service.serviceImpl" />
-      <recent name="club.banyuan.cqmall.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cq-mall/src/main/resources" />
@@ -196,7 +180,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MenuServiceImplTest.selectAllMenu">
+  <component name="RunManager" selected="Spring Boot.cqmallApplication">
     <configuration name="AdminServiceImplTest.selectAdminList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cq-mall" />
       <extension name="coverage">
@@ -297,9 +281,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.cqmallApplication" />
         <item itemvalue="JUnit.MenuServiceImplTest.selectAllMenu" />
         <item itemvalue="JUnit.AdminServiceImplTest.testSelectByUsername" />
-        <item itemvalue="Spring Boot.cqmallApplication" />
         <item itemvalue="JUnit.RoleServiceImplTest.selectRoleList" />
         <item itemvalue="JUnit.AdminServiceImplTest.selectAdminList" />
       </list>
@@ -341,8 +325,16 @@
       <workItem from="1585563333587" duration="25697000" />
       <workItem from="1586256052044" duration="5708000" />
       <workItem from="1586348115845" duration="47226000" />
-      <workItem from="1586766822647" duration="23685000" />
+      <workItem from="1586766822647" duration="24897000" />
     </task>
+    <task id="LOCAL-00001" summary="forth">
+      <created>1586866154411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586866154411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,14 +357,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="457" y="267" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1585570589889" />
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1586851901192">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1586867038734">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586851901192" />
-    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586765898075">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586867038734" />
+    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586866529787">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1586765898075" />
+    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1586866529787" />
     <state x="681" y="204" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1586850908831">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -385,46 +377,46 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="489" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1586849767275" />
-    <state x="313" y="66" key="CommitChangelistDialog2" timestamp="1586866033432">
+    <state x="313" y="66" key="CommitChangelistDialog2" timestamp="1586866153868">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="313" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1586866033432" />
+    <state x="313" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1586866153868" />
     <state x="145" y="102" key="DiffContextDialog" timestamp="1586865880463">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="145" y="102" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1586865880463" />
-    <state width="1295" height="277" key="GridCell.Tab.0.bottom" timestamp="1586866033514">
+    <state width="1098" height="204" key="GridCell.Tab.0.bottom" timestamp="1586867251129">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586866033514" />
-    <state width="1295" height="277" key="GridCell.Tab.0.center" timestamp="1586866033513">
+    <state width="1098" height="204" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586867251129" />
+    <state width="1098" height="204" key="GridCell.Tab.0.center" timestamp="1586867251127">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586866033513" />
-    <state width="1295" height="277" key="GridCell.Tab.0.left" timestamp="1586866033512">
+    <state width="1098" height="204" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586867251127" />
+    <state width="1098" height="204" key="GridCell.Tab.0.left" timestamp="1586867251124">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586866033512" />
-    <state width="1295" height="277" key="GridCell.Tab.0.right" timestamp="1586866033514">
+    <state width="1098" height="204" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586867251124" />
+    <state width="1098" height="204" key="GridCell.Tab.0.right" timestamp="1586867251128">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586866033514" />
-    <state width="1295" height="272" key="GridCell.Tab.1.bottom" timestamp="1586855049641">
+    <state width="1098" height="204" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586867251128" />
+    <state width="1098" height="204" key="GridCell.Tab.1.bottom" timestamp="1586867251131">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="272" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586855049641" />
-    <state width="1295" height="272" key="GridCell.Tab.1.center" timestamp="1586855049639">
+    <state width="1098" height="204" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586867251131" />
+    <state width="1098" height="204" key="GridCell.Tab.1.center" timestamp="1586867251130">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="272" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586855049639" />
-    <state width="1295" height="272" key="GridCell.Tab.1.left" timestamp="1586855049637">
+    <state width="1098" height="204" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586867251130" />
+    <state width="1098" height="204" key="GridCell.Tab.1.left" timestamp="1586867251129">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="272" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586855049637" />
-    <state width="1295" height="272" key="GridCell.Tab.1.right" timestamp="1586855049640">
+    <state width="1098" height="204" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586867251129" />
+    <state width="1098" height="204" key="GridCell.Tab.1.right" timestamp="1586867251131">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="272" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586855049640" />
+    <state width="1098" height="204" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586867251131" />
     <state width="1098" height="287" key="GridCell.Tab.2.bottom" timestamp="1586781924066">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -479,7 +471,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/RoleServiceImpl.java</url>
-          <line>20</line>
+          <line>22</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

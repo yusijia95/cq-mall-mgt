@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.parameters.P;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class RoleServiceImpl implements RoleService {
 
@@ -26,5 +28,10 @@ public class RoleServiceImpl implements RoleService {
         commonPage.setPageNum(pageInfo.getPageNum());
         commonPage.setPageSize(pageInfo.getPageSize());
         return commonPage;
+    }
+
+    @Override
+    public List<CommonPage> selectAllRoles() {
+        return umsRoleDao.selectAllRoles();
     }
 }

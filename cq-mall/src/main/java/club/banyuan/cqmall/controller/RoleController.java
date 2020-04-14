@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
 @Controller
@@ -29,6 +30,11 @@ public class RoleController {
         return CommonResult.success(roleInfo);
     }
 
-
+    @GetMapping("/listAll")
+    @ResponseBody
+    public CommonResult ListAllGet(){
+        List<CommonPage> roles=roleService.selectAllRoles();
+        return CommonResult.success(roles);
+    }
 
 }

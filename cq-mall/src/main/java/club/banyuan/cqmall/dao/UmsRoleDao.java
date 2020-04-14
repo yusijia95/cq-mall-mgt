@@ -1,5 +1,6 @@
 package club.banyuan.cqmall.dao;
 
+import club.banyuan.cqmall.common.CommonPage;
 import club.banyuan.cqmall.dao.entity.UmsRole;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
@@ -23,4 +24,6 @@ public interface UmsRoleDao {
     List<UmsRole> selectByUserId(Long userId);
 
     List<UmsRole> selectByKeyword(@Param("keyword") String keyword);
+
+    List<CommonPage> selectAllRoles();
 }
