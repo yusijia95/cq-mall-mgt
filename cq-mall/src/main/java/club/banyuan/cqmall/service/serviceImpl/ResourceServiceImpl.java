@@ -3,7 +3,9 @@ package club.banyuan.cqmall.service.serviceImpl;
 import club.banyuan.cqmall.common.CommonPage;
 import club.banyuan.cqmall.dao.UmsResourceDao;
 import club.banyuan.cqmall.dao.entity.UmsResource;
+import club.banyuan.cqmall.dao.entity.UmsResourceExample;
 import club.banyuan.cqmall.service.ResourceService;
+import cn.hutool.core.util.StrUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,15 +30,18 @@ public class ResourceServiceImpl implements ResourceService {
     }
 
     @Override
-    public CommonPage selectResourceList(Integer pageNum, Integer pageSize, String nameKeyword, String urlKeyword, Integer categoryId) {
-        PageHelper.startPage(pageNum,pageSize);
-        PageInfo pageInfo=new PageInfo(umsResourceDao.selectByKeyword(nameKeyword,urlKeyword,categoryId));
-        CommonPage commonPage=new CommonPage();
-        commonPage.setList(pageInfo.getList());
-        commonPage.setTotalPage(pageInfo.getPages());
-        commonPage.setTotal(pageInfo.getTotal());
-        commonPage.setPageNum(pageInfo.getPageNum());
-        commonPage.setPageSize(pageInfo.getPageSize());
-        return commonPage;
+    public List<UmsResource> selectResourceList(String nameKeyword, String urlKeyword, Long categoryId) {
+        UmsResourceExample umsResourceExample=new UmsResourceExample();
+        UmsResourceExample.Criteria criteria=umsResourceExample.createCriteria();
+        if (categoryId!=-1){
+            criteria.andCategoryIdEqualTo(categoryId);
+        }
+        if (StrUtil.isNotBlank(nameKeyword)){
+            criteria.andNameLike(StrUtil.concat(true,"%",nameKeyword,"%"));
+        }
+        if (StrUtil.isNotBlank(urlKeyword)){
+            criteria.andUrlLike(StrUtil.concat(true,"%",urlKeyword,"%"));
+        }
+        return umsResourceDao.selectByExample(umsResourceExample);
     }
 }

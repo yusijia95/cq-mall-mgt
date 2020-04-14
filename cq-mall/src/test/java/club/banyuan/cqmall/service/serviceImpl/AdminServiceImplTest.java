@@ -18,6 +18,7 @@ class AdminServiceImplTest {
 
     @Test
     void testSelectByUsername() {
+        adminService.selectByUsername("admin");
     }
 
     @Test

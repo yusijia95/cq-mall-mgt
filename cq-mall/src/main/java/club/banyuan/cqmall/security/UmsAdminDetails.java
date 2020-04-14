@@ -11,9 +11,9 @@ import java.util.List;
 public class UmsAdminDetails implements UserDetails {
 
     private UmsAdmin umsAdmin;
-    private List<? extends GrantedAuthority> authorities;
+    private List<ResourceConfigAttribute> authorities;
 
-    public UmsAdminDetails(UmsAdmin umsAdmin, List<? extends GrantedAuthority> authorities) {
+    public UmsAdminDetails(UmsAdmin umsAdmin, List<ResourceConfigAttribute> authorities) {
         this.umsAdmin = umsAdmin;
         this.authorities = authorities;
     }

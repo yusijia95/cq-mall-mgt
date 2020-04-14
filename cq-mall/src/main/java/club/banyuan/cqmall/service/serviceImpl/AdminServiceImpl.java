@@ -2,6 +2,7 @@ package club.banyuan.cqmall.service.serviceImpl;
 
 import club.banyuan.cqmall.common.CommonPage;
 import club.banyuan.cqmall.common.ReqFailException;
+import club.banyuan.cqmall.constant.CacheKey;
 import club.banyuan.cqmall.dao.UmsAdminDao;
 import club.banyuan.cqmall.dao.UmsMenuDao;
 import club.banyuan.cqmall.dao.UmsResourceDao;
@@ -19,6 +20,7 @@ import cn.hutool.core.util.StrUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -57,6 +59,8 @@ public class AdminServiceImpl implements AdminService, UserDetailsService {
         throw new ReqFailException("登录异常");
     }
 
+    @Cacheable(value = CacheKey.USER_ENTITY,key = "#username")
+    @Override
     public UmsAdmin selectByUsername(String username) {
         return umsAdminDao.selectByUsername(username);
     }
@@ -74,6 +78,7 @@ public class AdminServiceImpl implements AdminService, UserDetailsService {
         return new UmsAdminDetails(umsAdmin, attributes);
     }
 
+    @Cacheable(value = CacheKey.USER_INFO,key = "#username")
     @Override
     public AdminInfo selectAdminInfo(String username) {
         UmsAdmin user=umsAdminDao.selectByUsername(username);

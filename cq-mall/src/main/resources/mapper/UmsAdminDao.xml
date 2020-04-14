@@ -151,7 +151,7 @@
     from ums_admin
     where username = #{username}
   </select>
-    <select id="selectByKeyword" resultType="club.banyuan.cqmall.dao.entity.UmsAdmin">
+    <select id="selectByKeyword" resultMap="BaseResultMap">
       select <include refid="Base_Column_List"></include> from ums_admin
       <if test="keyword != null">
       where  username like concat('%',#{keyword},'%') or nick_name like concat('%',#{keyword},'%')

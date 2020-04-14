@@ -1,5 +1,10 @@
 package club.banyuan.cqmall.common;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+
+import java.util.List;
+
 public class CommonResult {
     private int code;
     private Object data;
@@ -48,6 +53,18 @@ public class CommonResult {
 
     public static CommonResult badRuquest(Object data) {
         return new CommonResult(data,CodeResult.BAD_REQUEST);
+    }
+
+    public static <T> CommonResult setPage(Integer pageNum, Integer pageSize, List<T> list){
+        PageHelper.startPage(pageNum,pageSize);
+        PageInfo<T> pageInfo=new PageInfo<>(list);
+        CommonPage<T> commonPage=new CommonPage<>();
+        commonPage.setList(pageInfo.getList());
+        commonPage.setTotalPage(pageInfo.getPages());
+        commonPage.setTotal(pageInfo.getTotal());
+        commonPage.setPageNum(pageInfo.getPageNum());
+        commonPage.setPageSize(pageInfo.getPageSize());
+        return  CommonResult.success(commonPage);
     }
 
     public int getCode() {

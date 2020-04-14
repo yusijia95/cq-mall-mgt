@@ -10,5 +10,5 @@ public interface ResourceService {
 
     List<UmsResource> selectAllResource();
 
-    CommonPage selectResourceList(Integer pageNum, Integer pageSize, String nameKeyword, String urlKeyword, Integer categoryId);
+    List<UmsResource> selectResourceList(String nameKeyword, String urlKeyword, Long categoryId);
 }

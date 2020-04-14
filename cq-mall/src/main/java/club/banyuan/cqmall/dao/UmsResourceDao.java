@@ -1,21 +1,30 @@
 package club.banyuan.cqmall.dao;
 
 import club.banyuan.cqmall.dao.entity.UmsResource;
-import club.banyuan.cqmall.dao.entity.UmsRole;
+import club.banyuan.cqmall.dao.entity.UmsResourceExample;
+import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
 @Repository
 public interface UmsResourceDao {
+    long countByExample(UmsResourceExample example);
+
+    int deleteByExample(UmsResourceExample example);
+
     int deleteByPrimaryKey(Long id);
 
     int insert(UmsResource record);
 
     int insertSelective(UmsResource record);
 
+    List<UmsResource> selectByExample(UmsResourceExample example);
+
     UmsResource selectByPrimaryKey(Long id);
+
+    int updateByExampleSelective(@Param("record") UmsResource record, @Param("example") UmsResourceExample example);
+
+    int updateByExample(@Param("record") UmsResource record, @Param("example") UmsResourceExample example);
 
     int updateByPrimaryKeySelective(UmsResource record);
 
@@ -25,5 +34,5 @@ public interface UmsResourceDao {
 
     List<UmsResource> selectResourceByUsername(String username);
 
-    List<UmsRole> selectByKeyword(@Param("nameKeyword") String nameKeyword, @Param("urlKeyword") String urlKeyword, @Param("categoryId") Integer categoryId);
+//    List selectByKeyword(String nameKeyword, String urlKeyword, Integer categoryId);
 }
