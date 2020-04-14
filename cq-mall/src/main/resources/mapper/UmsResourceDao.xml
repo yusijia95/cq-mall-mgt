@@ -105,4 +105,17 @@
     where urrr.resource_id=ur.id and urrr.role_id=(select uarr.role_id from ums_admin ua, ums_admin_role_relation uarr where ua.id=uarr.admin_id
     and ua.username=#{username})
   </select>
+    <select id="selectByKeyword" resultType="club.banyuan.cqmall.dao.entity.UmsRole">
+      select <include refid="Base_Column_List"></include> from ums_resource
+      where 1=1
+      <if test="nameKeyword !=null">
+        and name like concat('%', #{nameKeyword},'%')
+      </if>
+      <if test="urlKeyword !=null">
+        and url like concat('%', #{urlKeyword},'%')
+      </if>
+      <if test="categoryId !=-1">
+        and category_id like concat('%', #{categoryId},'%')
+      </if>
+    </select>
 </mapper>

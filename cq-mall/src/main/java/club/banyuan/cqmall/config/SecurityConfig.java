@@ -3,11 +3,13 @@ package club.banyuan.cqmall.config;
 import club.banyuan.cqmall.annotation.LoggerAnnotation;
 import club.banyuan.cqmall.security.DynamicAuthorizationFilter;
 import club.banyuan.cqmall.security.JwtAuthenticationFilter;
+import jdk.internal.org.objectweb.asm.tree.MethodInsnNode;
 import org.apache.naming.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -31,8 +33,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     public void configure(WebSecurity web) throws Exception {
-        web.ignoring().antMatchers("/admin/login");
-//                .antMatchers("/resources/**");
+        web.ignoring().antMatchers("/admin/login")
+                .antMatchers(HttpMethod.OPTIONS,"/**");
 
     }
 

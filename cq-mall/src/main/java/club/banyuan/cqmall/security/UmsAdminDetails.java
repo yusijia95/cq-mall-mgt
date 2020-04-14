@@ -19,15 +19,15 @@ public class UmsAdminDetails implements UserDetails {
     }
 
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        return authorities;
     }
 
     public String getPassword() {
-        return null;
+        return umsAdmin.getPassword();
     }
 
     public String getUsername() {
-        return null;
+        return umsAdmin.getUsername();
     }
 
     public boolean isAccountNonExpired() {

@@ -1,31 +1,24 @@
 package club.banyuan.cqmall.service.serviceImpl;
 
 import club.banyuan.cqmall.common.CommonPage;
-import club.banyuan.cqmall.dao.UmsMenuDao;
-import club.banyuan.cqmall.dao.entity.UmsMenu;
-import club.banyuan.cqmall.service.MenuService;
+import club.banyuan.cqmall.dao.UmsRoleDao;
+import club.banyuan.cqmall.service.RoleService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.parameters.P;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
-public class MenuServiceImpl implements MenuService {
+public class RoleServiceImpl implements RoleService {
 
     @Autowired
-    UmsMenuDao umsMenuDao;
+    UmsRoleDao umsRoleDao;
 
     @Override
-    public List<UmsMenu> selectAllMenu() {
-        return umsMenuDao.selectAllMenu();
-    }
-
-    @Override
-    public CommonPage selectMenuList(Integer pageNum, Integer pageSize) {
+    public CommonPage selectRoleList(Integer pageNum, Integer pageSize, String keyword) {
         PageHelper.startPage(pageNum,pageSize);
-        PageInfo pageInfo=new PageInfo(umsMenuDao.selectAllMenu());
+        PageInfo pageInfo=new PageInfo(umsRoleDao.selectByKeyword(keyword));
         CommonPage commonPage=new CommonPage();
         commonPage.setList(pageInfo.getList());
         commonPage.setTotalPage(pageInfo.getPages());

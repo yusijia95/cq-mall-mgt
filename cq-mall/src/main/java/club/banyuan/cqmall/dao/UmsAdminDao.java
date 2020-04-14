@@ -1,7 +1,10 @@
 package club.banyuan.cqmall.dao;
 
 import club.banyuan.cqmall.dao.entity.UmsAdmin;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Repository
 public interface UmsAdminDao {
@@ -18,4 +21,6 @@ public interface UmsAdminDao {
     int updateByPrimaryKey(UmsAdmin record);
 
     UmsAdmin selectByUsername(String username);
+
+    List<UmsAdmin> selectByKeyword(@Param("keyword") String keyword);
 }
