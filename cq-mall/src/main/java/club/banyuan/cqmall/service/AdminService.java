@@ -2,11 +2,12 @@ package club.banyuan.cqmall.service;
 
 import club.banyuan.cqmall.common.CommonPage;
 import club.banyuan.cqmall.dao.entity.UmsAdmin;
+import club.banyuan.cqmall.dto.UmsRoleDto;
 import club.banyuan.cqmall.vo.AdminInfo;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import java.util.Optional;
+import java.util.List;
 
 public interface AdminService {
 
@@ -19,4 +20,6 @@ public interface AdminService {
     AdminInfo selectAdminInfo(String username);
 
     CommonPage selectAdminList(Integer pageNum, Integer pageSize, String keyword);
+
+    List<UmsRoleDto> selectRolesByAdminId(Long adminId);
 }

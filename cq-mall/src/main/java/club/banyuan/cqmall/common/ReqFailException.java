@@ -20,4 +20,8 @@ public class ReqFailException extends RuntimeException {
     protected ReqFailException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
+
+    public ReqFailException(BadRequestDetails badRequestDetails) {
+        this(badRequestDetails.toString());
+    }
 }

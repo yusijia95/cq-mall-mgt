@@ -11,12 +11,13 @@ import club.banyuan.cqmall.dao.entity.UmsAdmin;
 import club.banyuan.cqmall.dao.entity.UmsMenu;
 import club.banyuan.cqmall.dao.entity.UmsResource;
 import club.banyuan.cqmall.dao.entity.UmsRole;
+import club.banyuan.cqmall.dto.UmsRoleDto;
 import club.banyuan.cqmall.security.ResourceConfigAttribute;
 import club.banyuan.cqmall.security.UmsAdminDetails;
 import club.banyuan.cqmall.service.AdminService;
 import club.banyuan.cqmall.service.TokenService;
 import club.banyuan.cqmall.vo.AdminInfo;
-import cn.hutool.core.util.StrUtil;
+import cn.hutool.core.bean.BeanUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -53,13 +55,13 @@ public class AdminServiceImpl implements AdminService, UserDetailsService {
     @Override
     public String login(String username, String password) {
         UmsAdmin umsAdmin = umsAdminDao.selectByUsername(username);
-        if (passwordEncoder.matches(password,umsAdmin.getPassword())) {
+        if (passwordEncoder.matches(password, umsAdmin.getPassword())) {
             return tokenService.generateToken(username);
         }
         throw new ReqFailException("登录异常");
     }
 
-    @Cacheable(value = CacheKey.USER_ENTITY,key = "#username")
+    @Cacheable(value = CacheKey.USER_ENTITY, key = "#username")
     @Override
     public UmsAdmin selectByUsername(String username) {
         return umsAdminDao.selectByUsername(username);
@@ -78,17 +80,17 @@ public class AdminServiceImpl implements AdminService, UserDetailsService {
         return new UmsAdminDetails(umsAdmin, attributes);
     }
 
-    @Cacheable(value = CacheKey.USER_INFO,key = "#username")
+    @Cacheable(value = CacheKey.USER_INFO, key = "#username")
     @Override
     public AdminInfo selectAdminInfo(String username) {
-        UmsAdmin user=umsAdminDao.selectByUsername(username);
-        List<UmsMenu> umsMenus=umsMenuDao.selectAllMenu();
+        UmsAdmin user = umsAdminDao.selectByUsername(username);
+        List<UmsMenu> umsMenus = umsMenuDao.selectAllMenu();
         List<UmsRole> umsRoles = umsRoleDao.selectByUserId(user.getId());
         List<Long> menuIds = umsMenuDao.selectMenuIdsByRoleIds(umsRoles.stream().map(UmsRole::getId).collect(Collectors.toList()));
         List<UmsMenu> collect = umsMenus.stream().filter(t -> {
             return menuIds.contains(t.getId());
         }).collect(Collectors.toList());
-        AdminInfo adminInfo=new AdminInfo();
+        AdminInfo adminInfo = new AdminInfo();
         adminInfo.setIcon(user.getIcon());
         adminInfo.setUsername(username);
         adminInfo.setMenus(collect);
@@ -98,14 +100,27 @@ public class AdminServiceImpl implements AdminService, UserDetailsService {
 
     @Override
     public CommonPage selectAdminList(Integer pageNum, Integer pageSize, String keyword) {
-        PageHelper.startPage(pageNum,pageSize);
-        PageInfo pageInfo= new PageInfo(umsAdminDao.selectByKeyword(keyword));
-        CommonPage commonPage=new CommonPage();
+        PageHelper.startPage(pageNum, pageSize);
+        PageInfo pageInfo = new PageInfo(umsAdminDao.selectByKeyword(keyword));
+        CommonPage commonPage = new CommonPage();
         commonPage.setPageNum(pageInfo.getPageNum());
         commonPage.setPageSize(pageInfo.getPageSize());
         commonPage.setTotal(pageInfo.getTotal());
         commonPage.setTotalPage(pageInfo.getPages());
         commonPage.setList(pageInfo.getList());
         return commonPage;
+    }
+
+    @Override
+    public List<UmsRoleDto> selectRolesByAdminId(Long adminId) {
+        List<Long> roleIds = umsAdminDao.selectRoleIdsByAdminId(adminId);
+        List<UmsRole> umsRoles = umsRoleDao.selectByIds(roleIds);
+        List<UmsRoleDto> umsRoleDtos = new ArrayList<>();
+        for (UmsRole umsRole:umsRoles) {
+            UmsRoleDto umsRoleDto=new UmsRoleDto();
+            BeanUtil.copyProperties(umsRole,umsRole);
+            umsRoleDtos.add(umsRoleDto);
+        }
+        return umsRoleDtos;
     }
 }

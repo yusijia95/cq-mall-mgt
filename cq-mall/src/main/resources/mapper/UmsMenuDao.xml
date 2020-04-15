@@ -143,4 +143,8 @@
           #{item}
         </foreach>
     </select>
+    <select id="selectMenusByParentId" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"></include> from ums_menu
+        where parent_id=#{parentId}
+    </select>
 </mapper>

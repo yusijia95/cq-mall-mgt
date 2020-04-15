@@ -12,5 +12,5 @@ public interface MenuService {
 
     List<UmsMenu> selectAllMenu();
 
-    CommonPage selectMenuList(Integer pageNum, Integer pageSize);
+    List<UmsMenu> selectMenuListByParentId(Long parentId);
 }

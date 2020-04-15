@@ -19,22 +19,16 @@ public class MenuServiceImpl implements MenuService {
     @Autowired
     UmsMenuDao umsMenuDao;
 
-    @Cacheable(value = CacheKey.USER_INFO,key = "#root.method")
+    @Cacheable(value = CacheKey.MENU_LIST, key = "'" + CacheKey.CACHE_KEY + "'")
     @Override
     public List<UmsMenu> selectAllMenu() {
         return umsMenuDao.selectAllMenu();
     }
 
+    @Cacheable(value = CacheKey.MENU_LIST, key ="#parentId")
     @Override
-    public CommonPage<UmsMenu> selectMenuList(Integer pageNum, Integer pageSize) {
-        PageHelper.startPage(pageNum,pageSize);
-        PageInfo<UmsMenu> pageInfo=new PageInfo<>(umsMenuDao.selectAllMenu());
-        CommonPage<UmsMenu> commonPage=new CommonPage<>();
-        commonPage.setList(pageInfo.getList());
-        commonPage.setTotalPage(pageInfo.getPages());
-        commonPage.setTotal(pageInfo.getTotal());
-        commonPage.setPageNum(pageInfo.getPageNum());
-        commonPage.setPageSize(pageInfo.getPageSize());
-        return commonPage;
+    public List<UmsMenu> selectMenuListByParentId(Long parentId) {
+        return umsMenuDao.selectMenusByParentId(parentId);
     }
+
 }

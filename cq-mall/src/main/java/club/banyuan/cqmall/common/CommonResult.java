@@ -28,23 +28,27 @@ public class CommonResult {
     }
 
     public static CommonResult success(Object data) {
-        return new CommonResult(data,CodeResult.SUCCESS);
+        return new CommonResult(data, CodeResult.SUCCESS);
+    }
+
+    public static CommonResult success() {
+        return new CommonResult(CodeResult.SUCCESS);
     }
 
     public static CommonResult failed(Object data) {
-        return new CommonResult(data,CodeResult.FAILED);
+        return new CommonResult(data, CodeResult.FAILED);
     }
 
     public static CommonResult failed() {
-        return new CommonResult("未知错误",CodeResult.FAILED);
+        return new CommonResult("未知错误", CodeResult.FAILED);
     }
 
     public static CommonResult unauthorized(Object data) {
-        return new CommonResult(data,CodeResult.UNAUTHORIZED);
+        return new CommonResult(data, CodeResult.UNAUTHORIZED);
     }
 
     public static CommonResult unauthorized() {
-        return new CommonResult(CodeResult.UNAUTHORIZED.getMessage(),CodeResult.UNAUTHORIZED);
+        return new CommonResult(CodeResult.UNAUTHORIZED.getMessage(), CodeResult.UNAUTHORIZED);
     }
 
     public static CommonResult forbidden() {
@@ -52,19 +56,23 @@ public class CommonResult {
     }
 
     public static CommonResult badRuquest(Object data) {
-        return new CommonResult(data,CodeResult.BAD_REQUEST);
+        return new CommonResult(data, CodeResult.BAD_REQUEST);
     }
 
-    public static <T> CommonResult setPage(Integer pageNum, Integer pageSize, List<T> list){
-        PageHelper.startPage(pageNum,pageSize);
-        PageInfo<T> pageInfo=new PageInfo<>(list);
-        CommonPage<T> commonPage=new CommonPage<>();
+    public static CommonResult badRuquest(BadRequestDetails badRequestDetails) {
+        throw new ReqFailException(badRequestDetails);
+    }
+
+    public static <T> CommonResult setPage(Integer pageNum, Integer pageSize, List<T> list) {
+        PageHelper.startPage(pageNum, pageSize);
+        PageInfo<T> pageInfo = new PageInfo<>(list);
+        CommonPage<T> commonPage = new CommonPage<>();
         commonPage.setList(pageInfo.getList());
         commonPage.setTotalPage(pageInfo.getPages());
         commonPage.setTotal(pageInfo.getTotal());
         commonPage.setPageNum(pageInfo.getPageNum());
         commonPage.setPageSize(pageInfo.getPageSize());
-        return  CommonResult.success(commonPage);
+        return CommonResult.success(commonPage);
     }
 
     public int getCode() {

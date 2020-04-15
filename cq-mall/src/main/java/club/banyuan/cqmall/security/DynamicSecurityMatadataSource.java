@@ -27,10 +27,9 @@ public class DynamicSecurityMatadataSource implements FilterInvocationSecurityMe
         String url = filterInvocation.getRequestUrl();
         String path = URLUtil.getPath(url);
         AntPathMatcher antPathMatcher = new AntPathMatcher();
-        final List<ConfigAttribute> collect = umsResources.stream().filter(t -> {
+        return umsResources.stream().filter(t -> {
             return antPathMatcher.match(t.getUrl(), path);
         }).map(ResourceConfigAttribute::new).collect(Collectors.toList());
-        return collect;
     }
 
     @Override

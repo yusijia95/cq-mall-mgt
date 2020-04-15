@@ -33,6 +33,21 @@
     <select id="selectAllRoles" resultMap="BaseResultMap">
         select <include refid="Base_Column_List"></include> from ums_role
     </select>
+    <select id="selectRoleIdsByResourceIds" resultType="java.lang.Long">
+        select DISTINCT role_id from ums_role_resource_relation where
+        resource_id in
+        <foreach collection="list" open="(" close=")" separator="," item="item">
+            #{item}
+        </foreach>
+    </select>
+    <select id="selectByIds" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"></include> from ums_role
+        where id in
+        <foreach collection="list" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+
+    </select>
 
     <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from ums_role

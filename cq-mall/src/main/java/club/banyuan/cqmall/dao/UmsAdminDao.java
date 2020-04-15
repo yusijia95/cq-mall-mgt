@@ -23,4 +23,6 @@ public interface UmsAdminDao {
     UmsAdmin selectByUsername(String username);
 
     List<UmsAdmin> selectByKeyword(@Param("keyword") String keyword);
+
+    List<Long> selectRoleIdsByAdminId(Long adminId);
 }

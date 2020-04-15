@@ -22,4 +22,6 @@ public interface UmsMenuDao {
     List<UmsMenu> selectAllMenu();
 
     List<Long> selectMenuIdsByRoleIds(List<Long> roleIds);
+
+    List<UmsMenu> selectMenusByParentId(Long parentId);
 }

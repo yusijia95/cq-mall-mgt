@@ -23,10 +23,10 @@ public class RoleController {
 
     @GetMapping("/list")
     @ResponseBody
-    public CommonResult ListGet(@RequestParam("pageNum") Optional<Integer> pageNum,
-                                @RequestParam("pageSize") Optional<Integer> pageSize,
-                                @RequestParam("keyword") Optional<String> keyword){
-        CommonPage roleInfo=roleService.selectRoleList(pageNum.orElse(0),pageSize.orElse(5),keyword.orElse(null));
+    public CommonResult ListGet(@RequestParam("pageNum") Integer pageNum,
+                                @RequestParam("pageSize") Integer pageSize,
+                                @RequestParam(value = "keyword",required = false) String keyword){
+        CommonPage roleInfo=roleService.selectRoleList(pageNum,pageSize,keyword);
         return CommonResult.success(roleInfo);
     }
 

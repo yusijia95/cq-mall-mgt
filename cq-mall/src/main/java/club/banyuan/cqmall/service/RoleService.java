@@ -13,4 +13,6 @@ public interface RoleService {
     CommonPage selectRoleList(Integer pageNum, Integer pageSize, String keyword);
 
     List<CommonPage> selectAllRoles();
+
+    List<Long> selectRoleIdsByResourceIds(List<Long> resourceIds);
 }

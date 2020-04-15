@@ -34,4 +34,9 @@ public class RoleServiceImpl implements RoleService {
     public List<CommonPage> selectAllRoles() {
         return umsRoleDao.selectAllRoles();
     }
+
+    @Override
+    public List<Long> selectRoleIdsByResourceIds(List<Long> resourceIds){
+        return umsRoleDao.selectRoleIdsByResourceIds(resourceIds);
+    }
 }

@@ -26,4 +26,8 @@ public interface UmsRoleDao {
     List<UmsRole> selectByKeyword(@Param("keyword") String keyword);
 
     List<CommonPage> selectAllRoles();
+
+    List<Long> selectRoleIdsByResourceIds(List<Long> resourceIds);
+
+    List<UmsRole> selectByIds(List<Long> roleIds);
 }

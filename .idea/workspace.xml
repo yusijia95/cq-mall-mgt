@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
+    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="forth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/ReqFailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/ReqFailException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/ResourceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsAdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsAdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsMenuDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/security/DynamicSecurityMatadataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/security/DynamicSecurityMatadataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/ResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/ResourceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/ResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/ResourceServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsMenuDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/test/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/test/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +67,8 @@
         <option value="HTML File" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -122,11 +138,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="club.banyuan.cqmall.dto" />
       <recent name="club.banyuan.cqmall.service" />
       <recent name="club.banyuan.cqmall.dao" />
       <recent name="club.banyuan.cqmall.controller" />
       <recent name="club.banyuan.cqmall.common" />
-      <recent name="club.banyuan.cqmall.service.serviceImpl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cq-mall/src/main/resources" />
@@ -181,7 +197,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.cqmallApplication">
-    <configuration name="AdminServiceImplTest.selectAdminList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminServiceImplTest.testSelectAdminInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cq-mall" />
       <extension name="coverage">
         <pattern>
@@ -191,23 +207,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="club.banyuan.cqmall.service.serviceImpl" />
       <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.AdminServiceImplTest" />
-      <option name="METHOD_NAME" value="selectAdminList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminServiceImplTest.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cq-mall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.banyuan.cqmall.service.serviceImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="club.banyuan.cqmall.service.serviceImpl" />
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.AdminServiceImplTest" />
-      <option name="METHOD_NAME" value="testSelectByUsername" />
+      <option name="METHOD_NAME" value="testSelectAdminInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -229,7 +229,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleServiceImplTest.selectRoleList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ResourceServiceImplTest.insertResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cq-mall" />
       <extension name="coverage">
         <pattern>
@@ -238,8 +238,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="club.banyuan.cqmall.service.serviceImpl" />
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.RoleServiceImplTest" />
-      <option name="METHOD_NAME" value="selectRoleList" />
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.ResourceServiceImplTest" />
+      <option name="METHOD_NAME" value="insertResource" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceServiceImplTest.selectAllResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cq-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.cqmall.service.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="club.banyuan.cqmall.service.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.ResourceServiceImplTest" />
+      <option name="METHOD_NAME" value="selectAllResource" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,10 +298,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.cqmallApplication" />
+        <item itemvalue="JUnit.ResourceServiceImplTest.insertResource" />
+        <item itemvalue="JUnit.AdminServiceImplTest.testSelectAdminInfo" />
+        <item itemvalue="JUnit.ResourceServiceImplTest.selectAllResource" />
         <item itemvalue="JUnit.MenuServiceImplTest.selectAllMenu" />
-        <item itemvalue="JUnit.AdminServiceImplTest.testSelectByUsername" />
-        <item itemvalue="JUnit.RoleServiceImplTest.selectRoleList" />
-        <item itemvalue="JUnit.AdminServiceImplTest.selectAdminList" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +319,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -325,7 +341,7 @@
       <workItem from="1585563333587" duration="25697000" />
       <workItem from="1586256052044" duration="5708000" />
       <workItem from="1586348115845" duration="47226000" />
-      <workItem from="1586766822647" duration="24897000" />
+      <workItem from="1586766822647" duration="39742000" />
     </task>
     <task id="LOCAL-00001" summary="forth">
       <created>1586866154411</created>
@@ -334,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586866154411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="forth">
+      <created>1586867351314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586867351314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,18 +380,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="457" y="267" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1585570589889" />
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1586867038734">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1586955466716">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586867038734" />
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586955466716" />
     <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586866529787">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1586866529787" />
-    <state x="681" y="204" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1586850908831">
+    <state x="681" y="204" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1586938873952">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="681" y="204" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1440.877@0.23.1440.877" timestamp="1586850908831" />
+    <state x="681" y="204" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1440.877@0.23.1440.877" timestamp="1586938873952" />
     <state x="430" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586695225544">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -377,62 +400,66 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="489" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1586849767275" />
-    <state x="313" y="66" key="CommitChangelistDialog2" timestamp="1586866153868">
+    <state x="313" y="66" key="CommitChangelistDialog2" timestamp="1586940284137">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="313" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1586866153868" />
+    <state x="313" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1586940284137" />
     <state x="145" y="102" key="DiffContextDialog" timestamp="1586865880463">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="145" y="102" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1586865880463" />
-    <state width="1098" height="204" key="GridCell.Tab.0.bottom" timestamp="1586867251129">
+    <state width="1098" height="284" key="GridCell.Tab.0.bottom" timestamp="1586954515692">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="204" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586867251129" />
-    <state width="1098" height="204" key="GridCell.Tab.0.center" timestamp="1586867251127">
+    <state width="1098" height="284" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586954515692" />
+    <state width="1098" height="284" key="GridCell.Tab.0.center" timestamp="1586954515690">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="204" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586867251127" />
-    <state width="1098" height="204" key="GridCell.Tab.0.left" timestamp="1586867251124">
+    <state width="1098" height="284" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586954515690" />
+    <state width="1098" height="284" key="GridCell.Tab.0.left" timestamp="1586954515687">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="204" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586867251124" />
-    <state width="1098" height="204" key="GridCell.Tab.0.right" timestamp="1586867251128">
+    <state width="1098" height="284" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586954515687" />
+    <state width="1098" height="284" key="GridCell.Tab.0.right" timestamp="1586954515691">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="204" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586867251128" />
-    <state width="1098" height="204" key="GridCell.Tab.1.bottom" timestamp="1586867251131">
+    <state width="1098" height="284" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586954515691" />
+    <state width="1098" height="284" key="GridCell.Tab.1.bottom" timestamp="1586954515693">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="204" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586867251131" />
-    <state width="1098" height="204" key="GridCell.Tab.1.center" timestamp="1586867251130">
+    <state width="1098" height="284" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586954515693" />
+    <state width="1098" height="284" key="GridCell.Tab.1.center" timestamp="1586954515693">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="204" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586867251130" />
-    <state width="1098" height="204" key="GridCell.Tab.1.left" timestamp="1586867251129">
+    <state width="1098" height="284" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1586954515693" />
+    <state width="1098" height="284" key="GridCell.Tab.1.left" timestamp="1586954515692">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="204" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586867251129" />
-    <state width="1098" height="204" key="GridCell.Tab.1.right" timestamp="1586867251131">
+    <state width="1098" height="284" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1586954515692" />
+    <state width="1098" height="284" key="GridCell.Tab.1.right" timestamp="1586954515693">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="204" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586867251131" />
-    <state width="1098" height="287" key="GridCell.Tab.2.bottom" timestamp="1586781924066">
+    <state width="1098" height="284" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1586954515693" />
+    <state width="1098" height="220" key="GridCell.Tab.2.bottom" timestamp="1586951607039">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="287" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586781924066" />
-    <state width="1098" height="287" key="GridCell.Tab.2.center" timestamp="1586781924064">
+    <state width="1098" height="220" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586951607039" />
+    <state width="1098" height="220" key="GridCell.Tab.2.center" timestamp="1586951607038">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="287" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1586781924064" />
-    <state width="1098" height="287" key="GridCell.Tab.2.left" timestamp="1586781924064">
+    <state width="1098" height="220" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1586951607038" />
+    <state width="1098" height="220" key="GridCell.Tab.2.left" timestamp="1586951607037">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="287" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1586781924064" />
-    <state width="1098" height="287" key="GridCell.Tab.2.right" timestamp="1586781924065">
+    <state width="1098" height="220" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1586951607037" />
+    <state width="1098" height="220" key="GridCell.Tab.2.right" timestamp="1586951607039">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="287" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1586781924065" />
+    <state width="1098" height="220" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1586951607039" />
+    <state x="308" y="205" key="IDE.errors.dialog" timestamp="1586951025854">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="308" y="205" key="IDE.errors.dialog/0.23.1440.877@0.23.1440.877" timestamp="1586951025854" />
     <state x="285" y="106" key="Maven.ArtifactSearchDialog" timestamp="1586850741072">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -445,10 +472,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="410" y="277" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1586348142119" />
-    <state x="641" y="194" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586855019915">
+    <state x="641" y="194" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586942697935">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="641" y="194" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1586855019915" />
+    <state x="641" y="194" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1586942697935" />
     <state x="586" y="259" key="extract.method.dialog" timestamp="1586265369160">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -457,14 +484,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="108" y="226" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1586593948910" />
+    <state x="483" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1586937964215">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="483" y="87" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1586937964215" />
     <state x="303" y="158" key="scopes" timestamp="1586769120794">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="303" y="158" key="scopes/0.23.1440.877@0.23.1440.877" timestamp="1586769120794" />
-    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup" timestamp="1586658635910">
+    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup" timestamp="1586939777682">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1586658635910" />
+    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1586939777682" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -476,7 +507,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImpl.java</url>
-          <line>64</line>
+          <line>66</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
