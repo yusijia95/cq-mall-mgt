@@ -51,35 +51,35 @@ public class AdminController {
     @ResponseBody
     public CommonResult ListGet(@RequestParam("pageNum") Integer pageNum,
                                 @RequestParam("pageSize") Integer pageSize,
-                                @RequestParam(value = "keyword",required = false) String keyword) {
+                                @RequestParam(value = "keyword", required = false) String keyword) {
         CommonPage adminInfo = adminService.selectAdminList(pageNum, pageSize, keyword);
         return CommonResult.success(adminInfo);
     }
 
     @GetMapping("/role/{adminId}")
     @ResponseBody
-    public CommonResult RolesGet(@PathVariable("adminId") Long adminId){
+    public CommonResult RolesGet(@PathVariable("adminId") Long adminId) {
         List<UmsRoleDto> roles = adminService.selectRolesByAdminId(adminId);
         return CommonResult.success(roles);
     }
 
     @PostMapping("/delete/{id}")
     @ResponseBody
-    public CommonResult deleteAdmin(@PathVariable("adminId") Long adminId){
-        List<UmsRoleDto> roles = adminService.selectRolesByAdminId(adminId);
-        return CommonResult.success(roles);
+    public CommonResult deleteAdmin(@PathVariable("id") Long id) {
+        adminService.deleteAdminById(id);
+        return CommonResult.success();
     }
 
     @PostMapping("/update/{id}")
     @ResponseBody
-    public CommonResult updateAdmin(@PathVariable("adminId") Long adminId){
+    public CommonResult updateAdmin(@PathVariable("id") Long adminId) {
         List<UmsRoleDto> roles = adminService.selectRolesByAdminId(adminId);
         return CommonResult.success(roles);
     }
 
     @PostMapping("/register")
     @ResponseBody
-    public CommonResult registerAdmin(@PathVariable("adminId") Long adminId){
+    public CommonResult registerAdmin(@PathVariable("adminId") Long adminId) {
         List<UmsRoleDto> roles = adminService.selectRolesByAdminId(adminId);
         return CommonResult.success(roles);
     }

@@ -21,6 +21,7 @@ import cn.hutool.core.bean.BeanUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -122,5 +123,11 @@ public class AdminServiceImpl implements AdminService, UserDetailsService {
             umsRoleDtos.add(umsRoleDto);
         }
         return umsRoleDtos;
+    }
+
+    @Override
+    public Integer deleteAdminById(Long id) {
+        umsAdminDao.deleteByPrimaryKey(id);
+        return null;
     }
 }

@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="forth">
+    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/CommonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/ReqFailException.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/ReqFailException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/ResourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/ResourceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsAdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsAdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/dao/UmsRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/security/DynamicSecurityMatadataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/security/DynamicSecurityMatadataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/MenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/ResourceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/ResourceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/RoleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/MenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/ResourceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/ResourceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsMenuDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsRoleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/test/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/test/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +322,7 @@
       <workItem from="1585563333587" duration="25697000" />
       <workItem from="1586256052044" duration="5708000" />
       <workItem from="1586348115845" duration="47226000" />
-      <workItem from="1586766822647" duration="39742000" />
+      <workItem from="1586766822647" duration="41294000" />
     </task>
     <task id="LOCAL-00001" summary="forth">
       <created>1586866154411</created>
@@ -357,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586867351314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加增删改操作">
+      <created>1586959331985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586959331985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +353,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forth" />
-    <option name="LAST_COMMIT_MESSAGE" value="forth" />
+    <MESSAGE value="增加增删改操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加增删改操作" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="98" key="#Project_Structure" timestamp="1586609074767">
@@ -380,10 +369,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="457" y="267" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1585570589889" />
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1586955466716">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1586960055915">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586955466716" />
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1586960055915" />
     <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586866529787">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -400,10 +389,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="489" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1586849767275" />
-    <state x="313" y="66" key="CommitChangelistDialog2" timestamp="1586940284137">
+    <state x="313" y="66" key="CommitChangelistDialog2" timestamp="1586959331509">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="313" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1586940284137" />
+    <state x="313" y="66" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1586959331509" />
     <state x="145" y="102" key="DiffContextDialog" timestamp="1586865880463">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -507,7 +496,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/service/serviceImpl/AdminServiceImpl.java</url>
-          <line>66</line>
+          <line>67</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

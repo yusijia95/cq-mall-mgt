@@ -22,4 +22,6 @@ public interface AdminService {
     CommonPage selectAdminList(Integer pageNum, Integer pageSize, String keyword);
 
     List<UmsRoleDto> selectRolesByAdminId(Long adminId);
+
+    Integer deleteAdminById(Long id);
 }
