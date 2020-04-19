@@ -62,7 +62,6 @@ public class AdminServiceImpl implements AdminService, UserDetailsService {
         throw new ReqFailException("登录异常");
     }
 
-    @Cacheable(value = CacheKey.USER_ENTITY, key = "#username")
     @Override
     public UmsAdmin selectByUsername(String username) {
         return umsAdminDao.selectByUsername(username);

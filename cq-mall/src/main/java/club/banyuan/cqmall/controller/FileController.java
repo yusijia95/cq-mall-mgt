@@ -1,6 +1,8 @@
 package club.banyuan.cqmall.controller;
 
+import club.banyuan.cqmall.common.CommonResult;
 import club.banyuan.cqmall.service.OssFileService;
+import club.banyuan.cqmall.vo.UploadFile;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,27 +28,29 @@ public class FileController {
 
     @PostMapping("/image/upload")
     @ResponseBody
-    public String upload(@RequestParam("file") MultipartFile file){
+    public CommonResult upload(@RequestParam("file") MultipartFile file){
         String FileName=file.getOriginalFilename();
         SimpleDateFormat format=new SimpleDateFormat("yyyyMMdd");
         String objectName=format.format(new Date())+"/"+FileName;
         try {
-            return ossFileService.upload(objectName,file.getInputStream(),file.getContentType());
+            String url = ossFileService.upload(objectName, file.getInputStream(), file.getContentType());
+            UploadFile uploadFile=new UploadFile(url,FileName);
+            return CommonResult.success(uploadFile);
         } catch (IOException e) {
             logger.error("上传失败：{}",e.getMessage());
         }
-        return "fail";
+        return CommonResult.failed();
     }
 
     @PostMapping("/image/delete")
     @ResponseBody
-    public String delete(@RequestParam String objectName){
+    public CommonResult delete(@RequestParam String objectName){
         try {
             ossFileService.delete(objectName);
-            return "success";
+            return CommonResult.success();
         } catch (Exception e) {
             logger.error("文件上传失败");
         }
-        return "fail";
+        return CommonResult.failed();
     }
 }
