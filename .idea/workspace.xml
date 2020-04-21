@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/test/resources/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/test/resources/test.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +46,9 @@
       <list>
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -102,16 +103,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="club.banyuan.cqmall.service.serviceImpl" />
       <recent name="club.banyuan.cqmall.dao" />
+      <recent name="club.banyuan.cqmall.service.serviceImpl" />
       <recent name="club.banyuan.authentication.service.impl" />
       <recent name="club.banyuan.redis.service.ServiceImpl" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="club.banyuan.cqmall.service.serviceImpl" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="club.banyuan.cqmall.service" />
+      <recent name="club.banyuan.cqmall.service.serviceImpl" />
       <recent name="club.banyuan.cqmall.dao" />
       <recent name="club.banyuan.cqmall.vo" />
-      <recent name="club.banyuan.cqmall.service.serviceImpl" />
-      <recent name="club.banyuan.cqmall.service" />
       <recent name="club.banyuan.cqmall.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -120,9 +127,6 @@
       <recent name="$PROJECT_DIR$/cq-mall/src/main/resources" />
       <recent name="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall" />
       <recent name="$PROJECT_DIR$/all-demo/authentication/src/main/resources" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cq-mall/src/test/resources" />
@@ -175,24 +179,37 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.cqmallApplication">
-    <configuration name="AdminServiceImplTest.testSelectAdminInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProductLadderServiceImplTest.insertProductLadderList">
+    <configuration name="flow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testEasy.flow" />
       <module name="cq-mall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.cqmall.service.serviceImpl.*" />
+          <option name="PATTERN" value="testEasy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="club.banyuan.cqmall.service.serviceImpl" />
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.AdminServiceImplTest" />
-      <option name="METHOD_NAME" value="testSelectAdminInfo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmsProductLadderDaoTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cq-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.cqmall.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="club.banyuan.cqmall.dao" />
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.dao.PmsProductLadderDaoTest" />
+      <option name="METHOD_NAME" value="insert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuServiceImplTest.selectAllMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductLadderServiceImplTest.insertProductLadderList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cq-mall" />
       <extension name="coverage">
         <pattern>
@@ -201,8 +218,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="club.banyuan.cqmall.service.serviceImpl" />
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.MenuServiceImplTest" />
-      <option name="METHOD_NAME" value="selectAllMenu" />
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.ProductLadderServiceImplTest" />
+      <option name="METHOD_NAME" value="insertProductLadderList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,22 +236,6 @@
       <option name="PACKAGE_NAME" value="club.banyuan.cqmall.service.serviceImpl" />
       <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.ResourceServiceImplTest" />
       <option name="METHOD_NAME" value="insertResource" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResourceServiceImplTest.selectAllResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cq-mall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.banyuan.cqmall.service.serviceImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="club.banyuan.cqmall.service.serviceImpl" />
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.cqmall.service.serviceImpl.ResourceServiceImplTest" />
-      <option name="METHOD_NAME" value="selectAllResource" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -276,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductLadderServiceImplTest.insertProductLadderList" />
+        <item itemvalue="JUnit.PmsProductLadderDaoTest.insert" />
+        <item itemvalue="Application.flow" />
         <item itemvalue="Spring Boot.cqmallApplication" />
         <item itemvalue="JUnit.ResourceServiceImplTest.insertResource" />
-        <item itemvalue="JUnit.AdminServiceImplTest.testSelectAdminInfo" />
-        <item itemvalue="JUnit.ResourceServiceImplTest.selectAllResource" />
-        <item itemvalue="JUnit.MenuServiceImplTest.selectAllMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +322,7 @@
       <workItem from="1586256052044" duration="5708000" />
       <workItem from="1586348115845" duration="47226000" />
       <workItem from="1586766822647" duration="50456000" />
-      <workItem from="1587282047827" duration="20264000" />
+      <workItem from="1587282047827" duration="33083000" />
     </task>
     <task id="LOCAL-00001" summary="forth">
       <created>1586866154411</created>
@@ -365,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587373743091</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新增加商品功能，仅完成查询，还未完成添加">
+      <created>1587436345102</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587436345102</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,14 +399,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="457" y="267" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1585570589889" />
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1587373606424">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1587453202283">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1587373606424" />
-    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587373255250">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1587453202283" />
+    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587439040498">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1587373255250" />
+    <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1587439040498" />
     <state x="681" y="204" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1586938873952">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -407,6 +415,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="391" y="220" key="#com.intellij.refactoring.memberPushDown.PushDownDialog/0.23.1440.877@0.23.1440.877" timestamp="1587287827912" />
+    <state x="392" y="311" width="588" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587450449461">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="392" y="311" width="588" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1587450449461" />
     <state x="430" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586695225544">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -419,46 +431,46 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="489" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1586849767275" />
-    <state x="303" y="35" key="CommitChangelistDialog2" timestamp="1587373742719">
+    <state x="303" y="35" key="CommitChangelistDialog2" timestamp="1587436344856">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="303" y="35" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1587373742719" />
+    <state x="303" y="35" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1587436344856" />
     <state x="145" y="102" key="DiffContextDialog" timestamp="1586865880463">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="145" y="102" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1586865880463" />
-    <state width="1098" height="279" key="GridCell.Tab.0.bottom" timestamp="1587436000219">
+    <state width="1295" height="277" key="GridCell.Tab.0.bottom" timestamp="1587460486652">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="279" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587436000219" />
-    <state width="1098" height="279" key="GridCell.Tab.0.center" timestamp="1587436000217">
+    <state width="1295" height="277" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587460486652" />
+    <state width="1295" height="277" key="GridCell.Tab.0.center" timestamp="1587460486650">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="279" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587436000217" />
-    <state width="1098" height="279" key="GridCell.Tab.0.left" timestamp="1587436000216">
+    <state width="1295" height="277" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587460486650" />
+    <state width="1295" height="277" key="GridCell.Tab.0.left" timestamp="1587460486648">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="279" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587436000216" />
-    <state width="1098" height="279" key="GridCell.Tab.0.right" timestamp="1587436000218">
+    <state width="1295" height="277" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587460486648" />
+    <state width="1295" height="277" key="GridCell.Tab.0.right" timestamp="1587460486650">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="279" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587436000218" />
-    <state width="1098" height="279" key="GridCell.Tab.1.bottom" timestamp="1587436000222">
+    <state width="1295" height="277" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587460486650" />
+    <state width="1098" height="268" key="GridCell.Tab.1.bottom" timestamp="1587458835498">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="279" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587436000222" />
-    <state width="1098" height="279" key="GridCell.Tab.1.center" timestamp="1587436000220">
+    <state width="1098" height="268" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587458835498" />
+    <state width="1098" height="268" key="GridCell.Tab.1.center" timestamp="1587458835497">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="279" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587436000220" />
-    <state width="1098" height="279" key="GridCell.Tab.1.left" timestamp="1587436000219">
+    <state width="1098" height="268" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587458835497" />
+    <state width="1098" height="268" key="GridCell.Tab.1.left" timestamp="1587458835497">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="279" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587436000219" />
-    <state width="1098" height="279" key="GridCell.Tab.1.right" timestamp="1587436000221">
+    <state width="1098" height="268" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587458835497" />
+    <state width="1098" height="268" key="GridCell.Tab.1.right" timestamp="1587458835498">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="279" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587436000221" />
+    <state width="1098" height="268" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587458835498" />
     <state width="1098" height="220" key="GridCell.Tab.2.bottom" timestamp="1586951607039">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -487,18 +499,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="275" y="23" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587281432450" />
-    <state x="414" y="135" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587363109172">
+    <state x="414" y="135" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587459095929">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="414" y="135" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1587363109172" />
+    <state x="414" y="135" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1587459095929" />
     <state x="410" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1586348142119">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="410" y="277" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1586348142119" />
-    <state x="641" y="194" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586942697935">
+    <state x="641" y="194" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587458773134">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="641" y="194" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1586942697935" />
+    <state x="641" y="194" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1587458773134" />
     <state x="586" y="259" key="extract.method.dialog" timestamp="1586265369160">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -515,10 +527,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="303" y="158" key="scopes/0.23.1440.877@0.23.1440.877" timestamp="1586769120794" />
-    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup" timestamp="1587435167792">
+    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup" timestamp="1587459659741">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587435167792" />
+    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587459659741" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
