@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/test/resources/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/test/resources/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/resources/mapper/UmsAdminDao.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +321,7 @@
       <workItem from="1586256052044" duration="5708000" />
       <workItem from="1586348115845" duration="47226000" />
       <workItem from="1586766822647" duration="50456000" />
-      <workItem from="1587282047827" duration="17533000" />
+      <workItem from="1587282047827" duration="20264000" />
     </task>
     <task id="LOCAL-00001" summary="forth">
       <created>1586866154411</created>
@@ -359,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587288502404</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="更新增加商品功能，仅完成查询，还未完成添加">
+      <created>1587373743091</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587373743091</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +375,8 @@
     <MESSAGE value="forth" />
     <MESSAGE value="增加增删改操作" />
     <MESSAGE value="增加品牌管理功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加品牌管理功能" />
+    <MESSAGE value="更新增加商品功能，仅完成查询，还未完成添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新增加商品功能，仅完成查询，还未完成添加" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="98" key="#Project_Structure" timestamp="1586609074767">
@@ -412,46 +419,46 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="489" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1586849767275" />
-    <state x="303" y="35" key="CommitChangelistDialog2" timestamp="1587288502006">
+    <state x="303" y="35" key="CommitChangelistDialog2" timestamp="1587373742719">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="303" y="35" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1587288502006" />
+    <state x="303" y="35" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1587373742719" />
     <state x="145" y="102" key="DiffContextDialog" timestamp="1586865880463">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="145" y="102" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1586865880463" />
-    <state width="1098" height="299" key="GridCell.Tab.0.bottom" timestamp="1587373425775">
+    <state width="1098" height="279" key="GridCell.Tab.0.bottom" timestamp="1587436000219">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="299" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587373425775" />
-    <state width="1098" height="299" key="GridCell.Tab.0.center" timestamp="1587373425773">
+    <state width="1098" height="279" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587436000219" />
+    <state width="1098" height="279" key="GridCell.Tab.0.center" timestamp="1587436000217">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="299" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587373425773" />
-    <state width="1098" height="299" key="GridCell.Tab.0.left" timestamp="1587373425772">
+    <state width="1098" height="279" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587436000217" />
+    <state width="1098" height="279" key="GridCell.Tab.0.left" timestamp="1587436000216">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="299" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587373425772" />
-    <state width="1098" height="299" key="GridCell.Tab.0.right" timestamp="1587373425774">
+    <state width="1098" height="279" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587436000216" />
+    <state width="1098" height="279" key="GridCell.Tab.0.right" timestamp="1587436000218">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="299" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587373425774" />
-    <state width="1098" height="299" key="GridCell.Tab.1.bottom" timestamp="1587363085271">
+    <state width="1098" height="279" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587436000218" />
+    <state width="1098" height="279" key="GridCell.Tab.1.bottom" timestamp="1587436000222">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="299" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587363085271" />
-    <state width="1098" height="299" key="GridCell.Tab.1.center" timestamp="1587363085270">
+    <state width="1098" height="279" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587436000222" />
+    <state width="1098" height="279" key="GridCell.Tab.1.center" timestamp="1587436000220">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="299" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587363085270" />
-    <state width="1098" height="299" key="GridCell.Tab.1.left" timestamp="1587363085270">
+    <state width="1098" height="279" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587436000220" />
+    <state width="1098" height="279" key="GridCell.Tab.1.left" timestamp="1587436000219">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="299" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587363085270" />
-    <state width="1098" height="299" key="GridCell.Tab.1.right" timestamp="1587363085271">
+    <state width="1098" height="279" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587436000219" />
+    <state width="1098" height="279" key="GridCell.Tab.1.right" timestamp="1587436000221">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="299" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587363085271" />
+    <state width="1098" height="279" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587436000221" />
     <state width="1098" height="220" key="GridCell.Tab.2.bottom" timestamp="1586951607039">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -508,10 +515,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="303" y="158" key="scopes/0.23.1440.877@0.23.1440.877" timestamp="1586769120794" />
-    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup" timestamp="1587372632671">
+    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup" timestamp="1587435167792">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587372632671" />
+    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587435167792" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
