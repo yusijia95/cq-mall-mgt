@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="" />
+    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="更新增加商品功能，仅完成查询，还未完成添加">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/main/java/club/banyuan/cqmall/common/CommonResult.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,8 +46,8 @@
         <option value="HTML File" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -175,7 +178,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductLadderServiceImplTest.insertProductLadderList">
+  <component name="RunManager" selected="Spring Boot.cqmallApplication">
     <configuration name="flow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testEasy.flow" />
       <module name="cq-mall" />
@@ -273,10 +276,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.cqmallApplication" />
         <item itemvalue="JUnit.ProductLadderServiceImplTest.insertProductLadderList" />
         <item itemvalue="JUnit.PmsProductLadderDaoTest.insert" />
         <item itemvalue="Application.flow" />
-        <item itemvalue="Spring Boot.cqmallApplication" />
         <item itemvalue="JUnit.ResourceServiceImplTest.insertResource" />
       </list>
     </recent_temporary>
@@ -318,7 +321,7 @@
       <workItem from="1586256052044" duration="5708000" />
       <workItem from="1586348115845" duration="47226000" />
       <workItem from="1586766822647" duration="50456000" />
-      <workItem from="1587282047827" duration="33233000" />
+      <workItem from="1587282047827" duration="50821000" />
     </task>
     <task id="LOCAL-00001" summary="forth">
       <created>1586866154411</created>
@@ -376,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587474781603</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新增加商品功能，仅完成查询，还未完成添加">
+      <created>1587518241049</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587518241049</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,10 +412,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="457" y="267" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1585570589889" />
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1587453202283">
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1587560023512">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1587453202283" />
+    <state x="560" y="180" width="507" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1587560023512" />
     <state x="465" y="229" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587439040498">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -434,46 +444,46 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="489" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1586849767275" />
-    <state x="303" y="35" key="CommitChangelistDialog2" timestamp="1587518139951">
+    <state x="303" y="35" key="CommitChangelistDialog2" timestamp="1587559550645">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="303" y="35" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1587518139951" />
+    <state x="303" y="35" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1587559550645" />
     <state x="145" y="102" key="DiffContextDialog" timestamp="1587518138741">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="145" y="102" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1587518138741" />
-    <state width="1295" height="277" key="GridCell.Tab.0.bottom" timestamp="1587518217084">
+    <state width="1098" height="311" key="GridCell.Tab.0.bottom" timestamp="1587562220924">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587518217084" />
-    <state width="1295" height="277" key="GridCell.Tab.0.center" timestamp="1587518217078">
+    <state width="1098" height="311" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587562220924" />
+    <state width="1098" height="311" key="GridCell.Tab.0.center" timestamp="1587562220922">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587518217078" />
-    <state width="1295" height="277" key="GridCell.Tab.0.left" timestamp="1587518217075">
+    <state width="1098" height="311" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587562220922" />
+    <state width="1098" height="311" key="GridCell.Tab.0.left" timestamp="1587562220922">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587518217075" />
-    <state width="1295" height="277" key="GridCell.Tab.0.right" timestamp="1587518217079">
+    <state width="1098" height="311" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587562220922" />
+    <state width="1098" height="311" key="GridCell.Tab.0.right" timestamp="1587562220923">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587518217079" />
-    <state width="1098" height="268" key="GridCell.Tab.1.bottom" timestamp="1587458835498">
+    <state width="1098" height="311" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587562220923" />
+    <state width="1098" height="311" key="GridCell.Tab.1.bottom" timestamp="1587562220926">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="268" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587458835498" />
-    <state width="1098" height="268" key="GridCell.Tab.1.center" timestamp="1587458835497">
+    <state width="1098" height="311" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587562220926" />
+    <state width="1098" height="311" key="GridCell.Tab.1.center" timestamp="1587562220925">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="268" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587458835497" />
-    <state width="1098" height="268" key="GridCell.Tab.1.left" timestamp="1587458835497">
+    <state width="1098" height="311" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587562220925" />
+    <state width="1098" height="311" key="GridCell.Tab.1.left" timestamp="1587562220924">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="268" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587458835497" />
-    <state width="1098" height="268" key="GridCell.Tab.1.right" timestamp="1587458835498">
+    <state width="1098" height="311" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587562220924" />
+    <state width="1098" height="311" key="GridCell.Tab.1.right" timestamp="1587562220925">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1098" height="268" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587458835498" />
+    <state width="1098" height="311" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587562220925" />
     <state width="1098" height="220" key="GridCell.Tab.2.bottom" timestamp="1586951607039">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -502,10 +512,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="275" y="23" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587281432450" />
-    <state x="414" y="135" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587459095929">
+    <state x="286" y="184" key="Vcs.Push.Dialog.v2" timestamp="1587518248426">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="414" y="135" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1587459095929" />
+    <state x="286" y="184" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1587518248426" />
+    <state x="414" y="135" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587540816320">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="414" y="135" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1587540816320" />
     <state x="410" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1586348142119">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -522,18 +536,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="108" y="226" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1586593948910" />
-    <state x="483" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1587348543933">
+    <state x="483" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1587561804857">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="483" y="87" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1587348543932" />
+    <state x="483" y="87" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1587561804857" />
     <state x="303" y="158" key="scopes" timestamp="1586769120794">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="303" y="158" key="scopes/0.23.1440.877@0.23.1440.877" timestamp="1586769120794" />
-    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup" timestamp="1587459659741">
+    <state x="578" y="341" width="670" height="676" key="search.everywhere.popup" timestamp="1587542786447">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="357" y="204" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587459659741" />
+    <state x="578" y="341" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587542786447" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

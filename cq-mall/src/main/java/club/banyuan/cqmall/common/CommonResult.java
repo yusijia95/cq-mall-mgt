@@ -13,14 +13,14 @@ public class CommonResult {
     public CommonResult() {
     }
 
-    public CommonResult(int code, Object data, String message) {
+    public CommonResult(int code, String message,Object data) {
         this.code = code;
-        this.data = data;
         this.message = message;
+        this.data = data;
     }
 
     public CommonResult(Object data, CodeResult codeResult) {
-        this(codeResult.getCode(), data, codeResult.getMessage());
+        this(codeResult.getCode(), codeResult.getMessage(), data);
     }
 
     public CommonResult(CodeResult codeResult) {
