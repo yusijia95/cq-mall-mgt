@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cq-mall/src/test/resources/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/cq-mall/src/test/resources/test.json" afterDir="false" />
-    </list>
+    <list default="true" id="59309b59-6617-4406-969e-f660bef75778" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -322,7 +318,7 @@
       <workItem from="1586256052044" duration="5708000" />
       <workItem from="1586348115845" duration="47226000" />
       <workItem from="1586766822647" duration="50456000" />
-      <workItem from="1587282047827" duration="33083000" />
+      <workItem from="1587282047827" duration="33233000" />
     </task>
     <task id="LOCAL-00001" summary="forth">
       <created>1586866154411</created>
@@ -373,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587436345102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新增加商品功能，仅完成查询，还未完成添加">
+      <created>1587474781603</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587474781603</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,30 +434,30 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="489" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1586849767275" />
-    <state x="303" y="35" key="CommitChangelistDialog2" timestamp="1587436344856">
+    <state x="303" y="35" key="CommitChangelistDialog2" timestamp="1587518139951">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="303" y="35" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1587436344856" />
-    <state x="145" y="102" key="DiffContextDialog" timestamp="1586865880463">
+    <state x="303" y="35" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1587518139951" />
+    <state x="145" y="102" key="DiffContextDialog" timestamp="1587518138741">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="145" y="102" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1586865880463" />
-    <state width="1295" height="277" key="GridCell.Tab.0.bottom" timestamp="1587460486652">
+    <state x="145" y="102" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1587518138741" />
+    <state width="1295" height="277" key="GridCell.Tab.0.bottom" timestamp="1587518217084">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587460486652" />
-    <state width="1295" height="277" key="GridCell.Tab.0.center" timestamp="1587460486650">
+    <state width="1295" height="277" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587518217084" />
+    <state width="1295" height="277" key="GridCell.Tab.0.center" timestamp="1587518217078">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587460486650" />
-    <state width="1295" height="277" key="GridCell.Tab.0.left" timestamp="1587460486648">
+    <state width="1295" height="277" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587518217078" />
+    <state width="1295" height="277" key="GridCell.Tab.0.left" timestamp="1587518217075">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587460486648" />
-    <state width="1295" height="277" key="GridCell.Tab.0.right" timestamp="1587460486650">
+    <state width="1295" height="277" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587518217075" />
+    <state width="1295" height="277" key="GridCell.Tab.0.right" timestamp="1587518217079">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1295" height="277" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587460486650" />
+    <state width="1295" height="277" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587518217079" />
     <state width="1098" height="268" key="GridCell.Tab.1.bottom" timestamp="1587458835498">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
