@@ -22,7 +22,8 @@ import java.util.Date;
 import java.util.List;
 
 @Service
-public class ResourceServiceImpl implements ResourceService {
+public class
+ResourceServiceImpl implements ResourceService {
 
     @Autowired
     UmsResourceDao umsResourceDao;
@@ -30,7 +31,7 @@ public class ResourceServiceImpl implements ResourceService {
     @Autowired
     RoleService roleService;
 
-    @Cacheable(value = CacheKey.RESOURCE_LIST, key = "'" + CacheKey.CACHE_KEY + "'")
+    @Cacheable(value = CacheKey.RESOURCE_LIST, key = "'" + CacheKey.CACHE_KEY_ALL + "'")
     @Override
     public List<UmsResource> selectAllResource() {
         return umsResourceDao.selectAllResource();
@@ -57,7 +58,7 @@ public class ResourceServiceImpl implements ResourceService {
         return umsResourceDao.selectByExample(umsResourceExample);
     }
 
-    @CacheEvict(value = CacheKey.RESOURCE_LIST, key = "'" + CacheKey.CACHE_KEY + "'", allEntries = true)
+    @CacheEvict(value = CacheKey.RESOURCE_LIST, key = "'" + CacheKey.CACHE_KEY_ALL + "'", allEntries = true)
     @Override
     public Integer insertResource(UmsResourceDto umsResourceDto) {
         UmsResource umsResource = new UmsResource();
@@ -66,7 +67,7 @@ public class ResourceServiceImpl implements ResourceService {
         return umsResourceDao.insert(umsResource);
     }
 
-    @CacheEvict(value = CacheKey.RESOURCE_LIST, key = "'" + CacheKey.CACHE_KEY + "'", allEntries = true)
+    @CacheEvict(value = CacheKey.RESOURCE_LIST, key = "'" + CacheKey.CACHE_KEY_ALL + "'", allEntries = true)
     @Override
     public Integer updateResource(UmsResourceDto umsResourceDto) {
         UmsResource umsResource = new UmsResource();
@@ -74,7 +75,7 @@ public class ResourceServiceImpl implements ResourceService {
         return umsResourceDao.updateByPrimaryKey(umsResource);
     }
 
-    @CacheEvict(value = CacheKey.RESOURCE_LIST, key = "'" + CacheKey.CACHE_KEY + "'", allEntries = true)
+    @CacheEvict(value = CacheKey.RESOURCE_LIST, key = "'" + CacheKey.CACHE_KEY_ALL + "'", allEntries = true)
     @Override
     public Integer deleteResource(Long id) {
         List<Long> roleIds = roleService.selectRoleIdsByResourceIds(Collections.singletonList(id));

@@ -18,13 +18,13 @@ import java.util.List;
 public class SubjectController {
 
     @Autowired
-    PreferenceAreaService preferenceAreaService;
+    SubjectService subjectService;
 
     @GetMapping("/listAll")
     @ResponseBody
-    public CommonResult subjectListAll() {
-        List<CmsPrefrenceArea> prefrenceAreas = preferenceAreaService.selectAll();
-        return CommonResult.success(prefrenceAreas);
+    public CommonResult subjectListAll(){
+        List<CmsSubject> subjects=subjectService.selectAll();
+        return CommonResult.success(subjects);
     }
 
 }

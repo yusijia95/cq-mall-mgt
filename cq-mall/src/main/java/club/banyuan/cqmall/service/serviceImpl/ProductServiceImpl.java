@@ -6,6 +6,8 @@ import club.banyuan.cqmall.dto.CreateProductDto;
 import club.banyuan.cqmall.service.*;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollectionUtil;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,9 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     PmsProductDao pmsProductDao;
+
+//    @Autowired
+//    SqlSessionFactory sqlSessionFactory;
 
     @Autowired
     ProductLadderService productLadderService;
@@ -89,6 +94,7 @@ public class ProductServiceImpl implements ProductService {
     public List<PmsProduct> selectProducts() {
         return pmsProductDao.selectProducts();
     }
+
 
     @Override
     public List<PmsProduct> selectProducts(Integer publishStatus, Integer verifyStatus, String keyword, String productSn, Long productCategoryId, Long brandId) {

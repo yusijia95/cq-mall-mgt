@@ -14,5 +14,13 @@ public interface CacheKey {
 
     String MENU_LIST=BASE+SEPARATOR+"menu";
 
-    String CACHE_KEY="all";
+    String MEMBER_LIST=BASE+SEPARATOR+"member";
+
+    String PRODUCT_CATEGORY_LIST=BASE+SEPARATOR+"productCategory";
+
+    String SUBJECT_LIST=BASE+SEPARATOR+"subject";
+
+    String CACHE_KEY_ALL="all";
+
+    String CACHE_KEY_WITHCHILDREN="withChildren";
 }

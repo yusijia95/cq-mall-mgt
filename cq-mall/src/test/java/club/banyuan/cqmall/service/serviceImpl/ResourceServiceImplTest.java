@@ -26,6 +26,8 @@ class ResourceServiceImplTest {
 
     @Test
     void selectResourceByUsername() {
+        System.out.println(resourceService.selectResourceByUsername("productAdmin"));
+
     }
 
     @Test

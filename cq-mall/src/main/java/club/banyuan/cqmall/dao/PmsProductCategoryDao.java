@@ -2,6 +2,7 @@ package club.banyuan.cqmall.dao;
 
 import club.banyuan.cqmall.dao.entity.PmsProductAttribute;
 import club.banyuan.cqmall.dao.entity.PmsProductCategory;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -20,10 +21,7 @@ public interface PmsProductCategoryDao {
 
     int updateByPrimaryKey(PmsProductCategory record);
 
-    List<PmsProductCategory> selectProductCategoryListByParentId(Long parentId);
-
-    List<PmsProductCategory> selectProductCategoryNameByParentId(Long parentId);
-
+    List<PmsProductCategory> selectProductCategoryListByParentId(@Param("parentId") Long parentId);
     List<PmsProductCategory> selectAllName();
 
 }

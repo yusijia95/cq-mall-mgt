@@ -19,7 +19,7 @@ public class MenuServiceImpl implements MenuService {
     @Autowired
     UmsMenuDao umsMenuDao;
 
-    @Cacheable(value = CacheKey.MENU_LIST, key = "'" + CacheKey.CACHE_KEY + "'")
+    @Cacheable(value = CacheKey.MENU_LIST, key = "'" + CacheKey.CACHE_KEY_ALL + "'")
     @Override
     public List<UmsMenu> selectAllMenu() {
         return umsMenuDao.selectAllMenu();

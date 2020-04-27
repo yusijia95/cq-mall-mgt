@@ -228,10 +228,14 @@
     </select>
 
     <select id="selectResourceByUsername" resultMap="BaseResultMap">
-        select ur.<include refid="Base_Column_List"></include> from ums_role_resource_relation urrr , ums_resource ur
-        where urrr.resource_id=ur.id and urrr.role_id=(select uarr.role_id from ums_admin ua, ums_admin_role_relation
-        uarr where ua.id=uarr.admin_id
-        and ua.username=#{username})
+<!--                select ur.<include refid="Base_Column_List"></include> from ums_role_resource_relation urrr , ums_resource ur-->
+<!--                where urrr.resource_id=ur.id and urrr.role_id=(select uarr.role_id from ums_admin ua, ums_admin_role_relation-->
+<!--                uarr where ua.id=uarr.admin_id-->
+<!--                and ua.username=#{username})-->
+        select ur.id,ur.create_time,ur.name,ur.url,ur.description,ur.category_id from ums_admin ua left join
+        ums_admin_role_relation uarr on ua.id = uarr.admin_id left
+        join ums_role_resource_relation urrr on uarr.role_id = urrr.role_id left join ums_resource ur on
+        urrr.resource_id=ur.id where ua.username=#{username}
     </select>
     <!--  <select id="selectByKeyword" resultMap="BaseResultMap">-->
     <!--    select <include refid="Base_Column_List"></include> from ums_resource-->
